@@ -7,7 +7,7 @@ As the previous repositories were too fine-tuned in purpose for it to be easy to
 
 Format support for Office, DXF, SVG, etc., generally requires many extra third-party libraries to be pulled in, so those remain separate builds and JAR files but now at least they can all be easily worked on together via a combined repository fetch. No one is obligated to build everything in the repository. 
 
-The goal is to publish soon, so that only people intending to modify or extend these libraries need fetch the jxlab repository, and so one can just pull or reference (via a Maven POM file) the JAR files that one needs.
+The goal is to publish soon, so that only people intending to modify or extend these libraries need fetch the jxlab repository, and so that one can just pull or reference (via a Maven POM file) the JAR files that one needs.
 
 This consolidation of the previous loibraries also involve a re-think about best organization and structure for where things go, which was additionally mandated by the upgrade from Java 8 to Java 25, as module files expose unnoticed cyclical dependencies or unfortunate dependency hierarchies that were not what was intended. I do not have time for a migration guide.
 
