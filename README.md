@@ -13,7 +13,7 @@ This consolidation of prior libraries also involves a re-think about best organi
 
 The code was stuck at Java 8 for many years due to government contracting work, which often targets software for old hardware systems or for ancient frameworks that have not yet moved past Java 8, Java 7, or in some cases even Java 6. Due to trends towards containerization, this restriction has recently lifted and we are now allowed to build the Java and JavaFX JAR files into our own distributions of libraries as super-JARs rather than being captive to a system-level Java installation.
 
-The reason for jumping all the way to Java 25 is that we need the latest features that enhance the ability to control and observe calls to external non-Java applications in complex scientific visualization workflows and environments. As these requirements are all the way at the bottom of the dependency hierarchy in the commons library, everything is now Java 25.
+The reason for jumping all the way to Java 25 is that we need the latest features that enhance the ability to control and observe calls to external non-Java applications in complex scientific visualization workflows and environments. As these requirements are all the way at the bottom of the dependency hierarchy in the commons library, everything is now set to Java 25.
 
 We will do our best to pull in the older README files and high-level documentation of the consolidated libraries as part of the write-up of the new structure of top-level libraries within this newly consolidated repository.
 
