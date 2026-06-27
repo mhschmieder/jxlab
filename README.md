@@ -9,7 +9,7 @@ Format support for Office, DXF, SVG, etc., generally requires many extra third-p
 
 The goal is to publish soon, so that only people intending to modify or extend these libraries need fetch the jxlab repository, and so that one can just pull or reference (via a Maven POM file) the JAR files that one needs.
 
-This consolidation of the previous loibraries also involve a re-think about best organization and structure for where things go, which was additionally mandated by the upgrade from Java 8 to Java 25, as module files expose unnoticed cyclical dependencies or unfortunate dependency hierarchies that were not what was intended. I do not have time for a migration guide.
+This consolidation of prior libraries also involves a re-think about best organization and structure for where things go, which was additionally mandated by the upgrade from Java 8 to Java 25, as module files expose unnoticed cyclical dependencies or unfortunate dependency hierarchies that were not what was intended. I do not have time for a migration guide.
 
 The code was stuck at Java 8 for many years due to my government contracting work, which often targets software for old hardware systems or ancient frameworks that have not yet moved past Java 8, Java 7, or in some cases even Java 6. Due to trends towards containerization, this restriction has recently lifted and we are now allowed to build the Java and JavaFX JAR files into our own distributions of libraries rather than being captive to a system-level Java installation.
 
